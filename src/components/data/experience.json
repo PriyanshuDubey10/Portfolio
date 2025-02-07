@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "role": "Web Developer",
+    "organisation": "Internpe",
+    "startDate": "Feb, 2024",
+    "endDate": "Apr, 2024",
+    "location": "Kanpur,Uttar Pradesh",
+    "experiences": [
+      "Worked on GRS System",
+      "Worked with Google Meet Clone"
+    ],
+    "imageSrc": "company/internpe.jpg"
+  },
+  {
+    "id": 2,
+    "role": "Full Stack Developer Intern ",
+    "organisation": "Infotrixs",
+    "startDate": "Aug, 2023",
+    "endDate": "oct, 2024",
+    "location": "Kanpur,Uttar Pradesh",
+    "experiences": [
+      "Worked on Weather Forecast.",
+      "And some small HTML and CSS projects"
+      
+    ],
+    "imageSrc": "company/infotrix.png"
+  }
+]
