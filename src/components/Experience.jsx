@@ -4,8 +4,9 @@ import experience from "./data/experience.json";
 const Experience = () => {
   return (
     <>
+    <h1>EXPERIENCE</h1>
       <div className="container ex" id="experience">
-        <h1>EXPERIENCE</h1>
+        
         {experience.map((data) => {
           return (
             <>
@@ -24,10 +25,10 @@ const Experience = () => {
                     <span style={{ color: "yellowgreen" }}>
                       {data.startDate} {data.endDate}{" "}
                     </span>{" "}
-                    <span style={{ color: "yellow" }}>{data.location}</span>
+                    <span style={{ color: "yellow", fontSize:"16px"  }}>{data.location}</span>
                   </h4>
-                  <h5 style={{ color: "yellow" }}>{data.experiences[0]}</h5>
-                  <h5 style={{ color: "yellow" }}>{data.experiences[1]}</h5>
+                  <h5 style={{ color: "yellow", fontSize:"16px"  }}>{data.experiences[0]}</h5>
+                  <h5 style={{ color: "yellow", fontSize:"16px"  }}>{data.experiences[1]}</h5>
                 </div>
               </div>
             </>

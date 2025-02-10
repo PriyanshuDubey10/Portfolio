@@ -3,8 +3,10 @@ import achievements from "./data/archivment.json";
 
 const Achievement = () => {
   return (
+    <div>
+    <h1>ACHIEVEMENTS</h1>
     <div className="container ar" id="archivment"> {/* Changed id to "archivment" */}
-      <h1>ACHIEVEMENTS</h1>
+      
       {achievements.map((data) => (
         <div
           key={data.id}
@@ -18,6 +20,7 @@ const Achievement = () => {
           </div>
         </div>
       ))}
+    </div>
     </div>
   );
 };
