@@ -8,8 +8,9 @@ import { SiGmail } from "react-icons/si";
 const Contact = () => {
   return (
     <>
+    <h1>CONTACT ME</h1>
       <div className="container contact" id="contact">
-        <h1>CONTACT ME</h1>
+        
         <div
           className="contact-icon"
           data-aos="zoom-in-up"
