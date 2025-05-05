@@ -1,17 +1,17 @@
 [
      {
         "id": 1,
-      "title": "GATE 2025 Qualified",
-      "imageSrc": "Archivments/GATE.webp"
-    },
-    {
-        "id": 3,
-      "title": "GATE 2023 Qualified",
+      "title": "GATE 2025 Qualified ",
       "imageSrc": "Archivments/GATE.webp"
     },
     {
         "id": 2,
       "title": "Academic Excellence Award 2024",
       "imageSrc": "Archivments/logo.png"
-    }
+    },
+      {
+        "id": 3,
+      "title": "GATE 2023 Qualified 6785 Rank",
+      "imageSrc": "Archivments/GATE.webp"
+    },
 ]
